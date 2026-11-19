@@ -2,7 +2,7 @@
 -- =====================================
 -- INDICES DO BANCO DE DADOS
 -- PLATAFORMA DE STREAMING
--- =============================
+-- ======================================
 
 -- Indice para localizar visualizacoes por usuario
 CREATE INDEX idx_visualizacoes_usuario
