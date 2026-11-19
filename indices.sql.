@@ -1,0 +1,17 @@
+
+-- =====================================
+-- INDICES DO BANCO DE DADOS
+-- PLATAFORMA DE STREAMING
+-- =====================================
+
+-- Indice para localizar visualizacoes por usuario
+CREATE INDEX idx_visualizacoes_usuario
+ON Visualizacoes(id_usuario);
+
+-- Indice para localizar visualizacoes por filme
+CREATE INDEX idx_visualizacoes_filme
+ON Visualizacoes(id_filme);
+
+-- Indice para pesquisar visualizacoes por data
+CREATE INDEX idx_visualizacoes_data
+ON Visualizacoes(data_visualizacao);
