@@ -1,4 +1,4 @@
--- INSERIR USUARI
+-- INSERIR USUARIOS
 INSERT INTO Usuarios VALUES
 (1, 'Ana', 'ana@email.com'),
 (2, 'Pedro', 'pedro@email.com'),
